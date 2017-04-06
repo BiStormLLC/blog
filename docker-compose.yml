@@ -18,10 +18,11 @@ services:
      - 3306:3306
     
   wordpress:
-    image: wordpress:apache
+    build: .
+    image: bistormllc/blog
     container_name: view_controller
     volumes:
-     - ./wp:/var/www/html
+     - ./media:/media
     restart: always
     ports: 
      - "80:80"
