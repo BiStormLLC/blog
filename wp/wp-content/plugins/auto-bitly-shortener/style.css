@@ -1,0 +1,11 @@
+/*######## Common Style ########*/
+.shartd-bitly{width: 100%; float: left;}
+.shartd-bitly h1{font-size: 23px; font-weight: 400;}
+.shartd-bitly a.page-title-action{margin-left: 4px; padding: 4px 8px; position: relative; top: -3px; text-decoration: none; border: none; -webkit-border-radius: 2px;
+    border-radius: 2px; background: #e0e0e0; text-shadow: none; font-weight: 600; font-size: 13px;}
+.shartd-bitly a.page-title-action:hover{background: #0073aa; color: #fff;}
+
+/*######## Add New Campaign ########*/
+.add-campaign .custom{display: none;}
+input.error{border: 1px solid red;}
+.shartd-bitly .addcamp{background: #0085ba; border-radius: 5px; color: #fff; border: none; padding: 5px 10px;}

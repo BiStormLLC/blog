@@ -1,0 +1,42 @@
+=== Auto Bitly Shortener ===
+Contributors: zahidprimex
+Tags: bitly, short link, link shortener, auto link shortener
+Requires at least: 4.0
+Tested up to: 4.4
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Generates Bitly shortlinks of every posts in your site for different campaigns you create & shows in add/edit post page automatically 
+
+== Description ==
+
+Auto Bitly Shortener will make blogging easier to those who use Google Analytics or custom campaigns to track their visitors. Simply create as much as Google Analytics or custom campaigns you want. The bitly shortlinks of every posts for these campaigns will be generated automatically & shown in edit/add post window.
+
+== Installation ==
+1. upload the ‘auto-bitly-shortener’ folder into the `/wp-content/plugins/` directory
+1. activate the Plugin through the `Plugin` menu in WordPress
+1. configure the plugin by going to the `Bitly Shortener>Settings` menu that appears in your admin menu
+
+or
+
+install the plugin directly through the WordPress Dashboard
+
+== Frequently Asked Questions ==
+= How many campaigns can I create?  =
+There is no limit. You can create as many as you want.
+
+= Do I need a bitly.com account for using this plugin? =
+Yes
+
+= If I delete a campaign, will the generated links still remain active? =
+Yes
+
+= Where can I find all the links together? =
+You can find all links in your bitly.com account 
+
+== Screenshots ==
+1. Plugin Settings page
+2. Create New Campaign Page
+3. Manage Campaigns Page
+4. Add/Edit A Post Page

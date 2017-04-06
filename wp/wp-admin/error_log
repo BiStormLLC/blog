@@ -1,0 +1,538 @@
+[25-Aug-2016 18:54:04] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[25-Aug-2016 19:00:30] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home4/bistormo/public_html/blog/wp-content/themes/twentysixteen/inc/customizer.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/bistormo/public_html/blog/wp-content/themes/twentysixteen/functions.php on line 358
+[25-Aug-2016 19:01:16] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home4/bistormo/public_html/blog/wp-content/themes/twentysixteen/inc/customizer.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/bistormo/public_html/blog/wp-content/themes/twentysixteen/functions.php on line 358
+[07-Sep-2016 15:41:47] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 614)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(614)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 614, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:42:08] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 614)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(614)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 614, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:42:33] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 614)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(614)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 614, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:46:33] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 614)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(614)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 614, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:46:46] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 646)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(646)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 646, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:47:45] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=647", "url": "http:\/\/u.bistorm.us\/2coSwmW", "hash": "2coSwmW", "global_hash": "2coRuaz", "new_hash": 1 } }
+
+[07-Sep-2016 15:47:59] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=614", "url": "http:\/\/u.bistorm.us\/2cBYVgI", "hash": "2cBYVgI", "global_hash": "2cBY9QR", "new_hash": 1 } }
+
+[07-Sep-2016 15:49:44] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=616", "url": "http:\/\/u.bistorm.us\/2coS9IY", "hash": "2coS9IY", "global_hash": "2coSRpD", "new_hash": 1 } }
+
+[07-Sep-2016 15:51:28] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=626", "url": "http:\/\/u.bistorm.us\/2cBZ9o3", "hash": "2cBZ9o3", "global_hash": "2cBZLdm", "new_hash": 1 } }
+
+[07-Sep-2016 15:51:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=628", "url": "http:\/\/u.bistorm.us\/2cBZI1d", "hash": "2cBZI1d", "global_hash": "2cC0w6g", "new_hash": 1 } }
+
+[07-Sep-2016 15:52:21] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=630", "url": "http:\/\/u.bistorm.us\/2cBZAii", "hash": "2cBZAii", "global_hash": "2cBZqrd", "new_hash": 1 } }
+
+[07-Sep-2016 15:54:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=620", "url": "http:\/\/u.bistorm.us\/2cC04Vv", "hash": "2cC04Vv", "global_hash": "2cBZO90", "new_hash": 1 } }
+
+[07-Sep-2016 15:54:52] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=632", "url": "http:\/\/u.bistorm.us\/2cC02Nd", "hash": "2cC02Nd", "global_hash": "2cC0lYo", "new_hash": 1 } }
+
+[07-Sep-2016 15:55:07] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 634)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(634)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 634, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:55:20] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 634)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(634)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 634, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:55:36] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 634)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(634)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 634, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:56:28] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 634)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(634)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 634, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:57:52] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 634)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(634)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 634, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 15:58:57] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 642)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(642)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 642, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[07-Sep-2016 16:02:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=634", "url": "http:\/\/u.bistorm.us\/2cC2Iuo", "hash": "2cC2Iuo", "global_hash": "2cC1MpN", "new_hash": 1 } }
+
+[07-Sep-2016 16:02:43] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=636", "url": "http:\/\/u.bistorm.us\/2cC228b", "hash": "2cC228b", "global_hash": "2cC2ljm", "new_hash": 1 } }
+
+[07-Sep-2016 16:03:23] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=638", "url": "http:\/\/u.bistorm.us\/2coV84e", "hash": "2coV84e", "global_hash": "2coU5RR", "new_hash": 1 } }
+
+[07-Sep-2016 16:03:56] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=642", "url": "http:\/\/u.bistorm.us\/2cC35VL", "hash": "2cC35VL", "global_hash": "2cC1SOe", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/bistorm-home\/", "url": "http:\/\/u.bistorm.us\/2cCSpGu", "hash": "2cCSpGu", "global_hash": "2cCTkXn", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/bugle-home\/", "url": "http:\/\/u.bistorm.us\/2cCROVn", "hash": "2cCROVn", "global_hash": "2cCSJFk", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/666\/", "url": "http:\/\/u.bistorm.us\/2cCSDx9", "hash": "2cCSDx9", "global_hash": "2cCSUQI", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/669\/", "url": "http:\/\/u.bistorm.us\/2cCSb22", "hash": "2cCSb22", "global_hash": "2cCSLNh", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/670\/", "url": "http:\/\/u.bistorm.us\/2cCSIB7", "hash": "2cCSIB7", "global_hash": "2cCSpX0", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:39] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/668\/", "url": "http:\/\/u.bistorm.us\/2cCS9Hs", "hash": "2cCS9Hs", "global_hash": "2cCSKsH", "new_hash": 1 } }
+
+[07-Sep-2016 20:27:39] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/donate-to-bistorm-llc\/", "url": "http:\/\/u.bistorm.us\/2cCTsWU", "hash": "2cCTsWU", "global_hash": "2cCSCt9", "new_hash": 1 } }
+
+[08-Sep-2016 01:48:34] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/07\/github\/", "url": "http:\/\/u.bistorm.us\/2cqduSt", "hash": "2cqduSt", "global_hash": "2cqdJwS", "new_hash": 1 } }
+
+[09-Sep-2016 01:12:53] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=704", "url": "http:\/\/u.bistorm.us\/2cHy2YE", "hash": "2cHy2YE", "global_hash": "2cHxTo5", "new_hash": 1 } }
+
+[09-Sep-2016 01:14:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=682", "url": "http:\/\/u.bistorm.us\/2cHxDFy", "hash": "2cHxDFy", "global_hash": "2cHy56J", "new_hash": 1 } }
+
+[09-Sep-2016 01:16:14] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=664", "url": "http:\/\/u.bistorm.us\/2ctpzWV", "hash": "2ctpzWV", "global_hash": "2ctqnLl", "new_hash": 1 } }
+
+[09-Sep-2016 01:18:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?page_id=713", "url": "http:\/\/u.bistorm.us\/2ctqh6F", "hash": "2ctqh6F", "global_hash": "2ctqxCG", "new_hash": 1 } }
+
+[10-Sep-2016 01:00:25] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/08\/716\/", "url": "http:\/\/u.bistorm.us\/2cMfVAK", "hash": "2cMfVAK", "global_hash": "2cMghY7", "new_hash": 1 } }
+
+[10-Sep-2016 01:02:59] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=714", "url": "http:\/\/u.bistorm.us\/2cMhqyZ", "hash": "2cMhqyZ", "global_hash": "2cMg9Ie", "new_hash": 1 } }
+
+[10-Sep-2016 01:05:34] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=720", "url": "http:\/\/u.bistorm.us\/2cMgT0a", "hash": "2cMgT0a", "global_hash": "2cMg3R3", "new_hash": 1 } }
+
+[12-Sep-2016 23:45:58] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=790", "url": "http:\/\/u.bistorm.us\/2cUTKbK", "hash": "2cUTKbK", "global_hash": "2cUTCch", "new_hash": 1 } }
+
+[12-Sep-2016 23:47:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=792", "url": "http:\/\/u.bistorm.us\/2cUTVnn", "hash": "2cUTVnn", "global_hash": "2cUT2ey", "new_hash": 1 } }
+
+[12-Sep-2016 23:48:08] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=802", "url": "http:\/\/u.bistorm.us\/2cUUoGo", "hash": "2cUUoGo", "global_hash": "2cUSq8Z", "new_hash": 1 } }
+
+[12-Sep-2016 23:48:25] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=800", "url": "http:\/\/u.bistorm.us\/2cEyBAE", "hash": "2cEyBAE", "global_hash": "2cEzicS", "new_hash": 1 } }
+
+[12-Sep-2016 23:50:43] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=794", "url": "http:\/\/u.bistorm.us\/2cEzDfF", "hash": "2cEzDfF", "global_hash": "2cEyPaE", "new_hash": 1 } }
+
+[12-Sep-2016 23:51:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=766", "url": "http:\/\/u.bistorm.us\/2cEyEw8", "hash": "2cEyEw8", "global_hash": "2cEznNT", "new_hash": 1 } }
+
+[12-Sep-2016 23:53:06] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=768", "url": "http:\/\/u.bistorm.us\/2cEzvgl", "hash": "2cEzvgl", "global_hash": "2cEzWr0", "new_hash": 1 } }
+
+[12-Sep-2016 23:57:53] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=784", "url": "http:\/\/u.bistorm.us\/2cEzkS8", "hash": "2cEzkS8", "global_hash": "2cEzHMx", "new_hash": 1 } }
+
+[12-Sep-2016 23:58:15] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=774", "url": "http:\/\/u.bistorm.us\/2cEAf5b", "hash": "2cEAf5b", "global_hash": "2cEzNUy", "new_hash": 1 } }
+
+[12-Sep-2016 23:59:34] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=776", "url": "http:\/\/u.bistorm.us\/2cUUKwH", "hash": "2cUUKwH", "global_hash": "2cUVCBu", "new_hash": 1 } }
+
+[13-Sep-2016 00:01:26] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=780", "url": "http:\/\/u.bistorm.us\/2cUUzkT", "hash": "2cUUzkT", "global_hash": "2cUVthi", "new_hash": 1 } }
+
+[13-Sep-2016 00:01:51] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=778", "url": "http:\/\/u.bistorm.us\/2cUVL80", "hash": "2cUVL80", "global_hash": "2cUTOsd", "new_hash": 1 } }
+
+[13-Sep-2016 00:03:41] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=782", "url": "http:\/\/u.bistorm.us\/2cUUEoS", "hash": "2cUUEoS", "global_hash": "2cUUv4P", "new_hash": 1 } }
+
+[13-Sep-2016 00:05:59] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=786", "url": "http:\/\/u.bistorm.us\/2cUUn58", "hash": "2cUUn58", "global_hash": "2cUUOwj", "new_hash": 1 } }
+
+[13-Sep-2016 16:35:45] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=853", "url": "http:\/\/u.bistorm.us\/2cX8tmo", "hash": "2cX8tmo", "global_hash": "2cX933z", "new_hash": 1 } }
+
+[13-Sep-2016 16:37:31] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=835", "url": "http:\/\/u.bistorm.us\/2cGvuYY", "hash": "2cGvuYY", "global_hash": "2cGw0pT", "new_hash": 1 } }
+
+[13-Sep-2016 23:26:22] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=821", "url": "http:\/\/u.bistorm.us\/2cHl1Mx", "hash": "2cHl1Mx", "global_hash": "2cHlBdc", "new_hash": 1 } }
+
+[13-Sep-2016 23:26:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=823", "url": "http:\/\/u.bistorm.us\/2cXYsFD", "hash": "2cXYsFD", "global_hash": "2cXXw46", "new_hash": 1 } }
+
+[13-Sep-2016 23:28:26] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/13\/bistormllc-is-now-followed-by-kevin-chandler-on-twitter\/", "url": "http:\/\/u.bistorm.us\/2cXYNIl", "hash": "2cXYNIl", "global_hash": "2cXXpWa", "new_hash": 1 } }
+
+[13-Sep-2016 23:30:21] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=856", "url": "http:\/\/u.bistorm.us\/2cXYi1c", "hash": "2cXYi1c", "global_hash": "2cXYm0X", "new_hash": 1 } }
+
+[13-Sep-2016 23:32:26] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/13\/bistormllc-is-now-followed-by-josh-dura-on-twitter\/", "url": "http:\/\/u.bistorm.us\/2cHlz5q", "hash": "2cHlz5q", "global_hash": "2cHm4wl", "new_hash": 1 } }
+
+[13-Sep-2016 23:35:12] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=858", "url": "http:\/\/u.bistorm.us\/2cHmAu2", "hash": "2cHmAu2", "global_hash": "2cHmsuz", "new_hash": 1 } }
+
+[13-Sep-2016 23:35:39] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=860", "url": "http:\/\/u.bistorm.us\/2cY0yVU", "hash": "2cY0yVU", "global_hash": "2cXY0XR", "new_hash": 1 } }
+
+[13-Sep-2016 23:36:31] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=864", "url": "http:\/\/u.bistorm.us\/2cXZvW9", "hash": "2cXZvW9", "global_hash": "2cXYddM", "new_hash": 1 } }
+
+[13-Sep-2016 23:38:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/13\/bistormllc-is-now-followed-by-anthony-pisapia-on-twitter\/", "url": "http:\/\/u.bistorm.us\/2cXZaD1", "hash": "2cXZaD1", "global_hash": "2cY08iE", "new_hash": 1 } }
+
+[15-Sep-2016 07:04:25] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=875", "url": "http:\/\/u.bistorm.us\/2d1GjqB", "hash": "2d1GjqB", "global_hash": "2d1FRsq", "new_hash": 1 } }
+
+[15-Sep-2016 07:04:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=877", "url": "http:\/\/u.bistorm.us\/2cKXD0L", "hash": "2cKXD0L", "global_hash": "2cKW3vZ", "new_hash": 1 } }
+
+[15-Sep-2016 07:05:07] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=881", "url": "http:\/\/u.bistorm.us\/2cKXMl4", "hash": "2cKXMl4", "global_hash": "2cKWab1", "new_hash": 1 } }
+
+[15-Sep-2016 07:07:50] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/14\/susan-cork-followed-me-on-twitter\/", "url": "http:\/\/u.bistorm.us\/2cKWXsw", "hash": "2cKWXsw", "global_hash": "2cKWXJ2", "new_hash": 1 } }
+
+[15-Sep-2016 07:11:54] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=887", "url": "http:\/\/u.bistorm.us\/2cKYv5x", "hash": "2cKYv5x", "global_hash": "2cKWVAL", "new_hash": 1 } }
+
+[15-Sep-2016 07:12:11] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=889", "url": "http:\/\/u.bistorm.us\/2d1Iomk", "hash": "2d1Iomk", "global_hash": "2d1InPj", "new_hash": 1 } }
+
+[15-Sep-2016 07:12:25] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=891", "url": "http:\/\/u.bistorm.us\/2cKYCOK", "hash": "2cKYCOK", "global_hash": "2cKX0EH", "new_hash": 1 } }
+
+[15-Sep-2016 07:12:45] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=893", "url": "http:\/\/u.bistorm.us\/2cKYEpQ", "hash": "2cKYEpQ", "global_hash": "2cKX2fN", "new_hash": 1 } }
+
+[17-Sep-2016 16:13:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=948", "url": "http:\/\/u.bistorm.us\/2cRHs1O", "hash": "2cRHs1O", "global_hash": "2cRIISr", "new_hash": 1 } }
+
+[17-Sep-2016 16:13:25] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=952", "url": "http:\/\/u.bistorm.us\/2d8Dfci", "hash": "2d8Dfci", "global_hash": "2d8DtjF", "new_hash": 1 } }
+
+[17-Sep-2016 16:13:40] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=956", "url": "http:\/\/u.bistorm.us\/2d8DrbF", "hash": "2d8DrbF", "global_hash": "2d8FxrE", "new_hash": 1 } }
+
+[17-Sep-2016 16:13:59] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=936", "url": "http:\/\/u.bistorm.us\/2cRHw1J", "hash": "2cRHw1J", "global_hash": "2cRI084", "new_hash": 1 } }
+
+[17-Sep-2016 16:22:18] PHP Catchable fatal error:  Object of class WP_Error could not be converted to string in /home4/bistormo/public_html/blog/wp-content/plugins/twitter-auto-publish/api/twitteroauth.php on line 301
+[17-Sep-2016 16:23:09] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 958)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(958)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 958, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[17-Sep-2016 16:23:27] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 958)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(958)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 958, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[17-Sep-2016 16:24:12] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 958)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(958)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 958, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:35:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=999", "url": "http:\/\/u.bistorm.us\/2cSAMAu", "hash": "2cSAMAu", "global_hash": "2cSzxRV", "new_hash": 1 } }
+
+[18-Sep-2016 01:36:01] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=994", "url": "http:\/\/u.bistorm.us\/2d9xJGv", "hash": "2d9xJGv", "global_hash": "2d9yMGd", "new_hash": 1 } }
+
+[18-Sep-2016 01:36:24] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=986", "url": "http:\/\/u.bistorm.us\/2d9y5gf", "hash": "2d9y5gf", "global_hash": "2d9zeo4", "new_hash": 1 } }
+
+[18-Sep-2016 01:36:44] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=984", "url": "http:\/\/u.bistorm.us\/2cSAb1W", "hash": "2cSAb1W", "global_hash": "2cSBg9J", "new_hash": 1 } }
+
+[18-Sep-2016 01:38:47] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=982", "url": "http:\/\/u.bistorm.us\/2d9ynUm", "hash": "2d9ynUm", "global_hash": "2d9zcw9", "new_hash": 1 } }
+
+[18-Sep-2016 01:42:15] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 978)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(978)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 978, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:42:31] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 978)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(978)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 978, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:43:17] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 958)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(958)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 958, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:43:47] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 960)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(960)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 960, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:45:38] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 960)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(960)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 960, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:46:13] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 960)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(960)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 960, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 01:46:50] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 968)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(968)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 968, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 02:29:49] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(244): Bitly->get_bitly_link('http://blog.bis...', 960)
+#3 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(141): Bitly->get_bitly_link_for_post_id(960)
+#4 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_get_sample_permalink_html('<strong>Permali...', 960, NULL, NULL)
+#5 /home4/bistormo/public_html/blog/wp-admin/includes/post.php(1360): apply_filters()
+#6 /home4/bistormo/public_html/blog/wp-admin/edit-form-advanced.php(571): get_sampl in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 02:32:03] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=960", "url": "http:\/\/u.bistorm.us\/2d9DLqs", "hash": "2d9DLqs", "global_hash": "2d9D94e", "new_hash": 1 } }
+
+[18-Sep-2016 05:15:23] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/17\/i-tweeted-september-17-2016-at-0913pm\/", "url": "http:\/\/u.bistorm.us\/2cSVOPw", "hash": "2cSVOPw", "global_hash": "2cSVP62", "new_hash": 1 } }
+
+[18-Sep-2016 18:26:19] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1024", "url": "http:\/\/u.bistorm.us\/2cUft1G", "hash": "2cUft1G", "global_hash": "2cUfxhz", "new_hash": 1 } }
+
+[18-Sep-2016 18:58:22] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(123): Bitly->get_bitly_link('http://blog.bis...', 1024)
+#3 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_post_link('http://blog.bis...', Object(WP_Post), false)
+#4 /home4/bistormo/public_html/blog/wp-includes/link-template.php(238): apply_filters()
+#5 /home4/bistormo/public_html/blog/wp-content/plugins/wp-super-cache/wp-cache-phase2.php(1177): get_permalink(Array, Array)
+#6 /home4/bistormo/public_html/blog/wp-includes/plugin.php(524): wp_cache_post_c in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 18:59:53] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(123): Bitly->get_bitly_link('http://blog.bis...', 1024)
+#3 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_post_link('http://blog.bis...', Object(WP_Post), false)
+#4 /home4/bistormo/public_html/blog/wp-includes/link-template.php(238): apply_filters()
+#5 /home4/bistormo/public_html/blog/wp-content/plugins/wp-super-cache/wp-cache-phase2.php(1177): get_permalink(Array, Array)
+#6 /home4/bistormo/public_html/blog/wp-includes/plugin.php(524): wp_cache_post_c in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 19:01:37] PHP Fatal error:  Uncaught exception 'BitlyServiceError' with message 'Resolving host timed out: api-ssl.bitly.com' in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php:294
+Stack trace:
+#0 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php(66): BitlyService->get_bitly_service('shorten', Array)
+#1 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(269): BitlyService->shorten('http://blog.bis...', 'u.bistorm.us')
+#2 /home4/bistormo/public_html/blog/wp-content/plugins/bitly/bitly.php(123): Bitly->get_bitly_link('http://blog.bis...', 1024)
+#3 /home4/bistormo/public_html/blog/wp-includes/plugin.php(235): Bitly->hook_post_link('http://blog.bis...', Object(WP_Post), false)
+#4 /home4/bistormo/public_html/blog/wp-includes/link-template.php(238): apply_filters()
+#5 /home4/bistormo/public_html/blog/wp-content/plugins/wp-super-cache/wp-cache-phase2.php(1177): get_permalink(Array, Array)
+#6 /home4/bistormo/public_html/blog/wp-includes/plugin.php(524): wp_cache_post_c in /home4/bistormo/public_html/blog/wp-content/plugins/bitly/lib/BitlyService.php on line 294
+[18-Sep-2016 19:02:43] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/18\/thrills-and-spills\/", "url": "http:\/\/u.bistorm.us\/2dblhWv", "hash": "2dblhWv", "global_hash": "2dbmrkR", "new_hash": 1 } }
+
+[19-Sep-2016 18:26:52] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=978", "url": "http:\/\/u.bistorm.us\/2denujW", "hash": "2denujW", "global_hash": "2deo94R", "new_hash": 1 } }
+
+[19-Sep-2016 18:30:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1035", "url": "http:\/\/u.bistorm.us\/2denksL", "hash": "2denksL", "global_hash": "2denTTt", "new_hash": 1 } }
+
+[19-Sep-2016 18:30:21] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1050", "url": "http:\/\/u.bistorm.us\/2denII6", "hash": "2denII6", "global_hash": "2denAIn", "new_hash": 1 } }
+
+[19-Sep-2016 18:30:44] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1048", "url": "http:\/\/u.bistorm.us\/2deo7Kz", "hash": "2deo7Kz", "global_hash": "2denDUJ", "new_hash": 1 } }
+
+[19-Sep-2016 18:33:32] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1042", "url": "http:\/\/u.bistorm.us\/2cXe5Lw", "hash": "2cXe5Lw", "global_hash": "2cXcSUz", "new_hash": 1 } }
+
+[19-Sep-2016 18:35:29] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1046", "url": "http:\/\/u.bistorm.us\/2deol4e", "hash": "2deol4e", "global_hash": "2deoUuV", "new_hash": 1 } }
+
+[19-Sep-2016 18:35:44] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1044", "url": "http:\/\/u.bistorm.us\/2cXeldo", "hash": "2cXeldo", "global_hash": "2cXdpFW", "new_hash": 1 } }
+
+[19-Sep-2016 18:38:14] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1033", "url": "http:\/\/u.bistorm.us\/2deptoD", "hash": "2deptoD", "global_hash": "2dep1qp", "new_hash": 1 } }
+
+[19-Sep-2016 18:38:27] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1031", "url": "http:\/\/u.bistorm.us\/2cXe4qN", "hash": "2cXe4qN", "global_hash": "2cXeBJk", "new_hash": 1 } }
+
+[19-Sep-2016 18:38:55] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1020", "url": "http:\/\/u.bistorm.us\/2cXecXn", "hash": "2cXecXn", "global_hash": "2cXdRUQ", "new_hash": 1 } }
+
+[19-Sep-2016 18:43:17] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=966", "url": "http:\/\/u.bistorm.us\/2cXffXD", "hash": "2cXffXD", "global_hash": "2cXfMsj", "new_hash": 1 } }
+
+[19-Sep-2016 18:44:12] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=964", "url": "http:\/\/u.bistorm.us\/2deriBP", "hash": "2deriBP", "global_hash": "2depU1Y", "new_hash": 1 } }
+
+[19-Sep-2016 18:44:33] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=958", "url": "http:\/\/u.bistorm.us\/2deqq07", "hash": "2deqq07", "global_hash": "2depWH8", "new_hash": 1 } }
+
+[19-Sep-2016 18:45:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=922", "url": "http:\/\/u.bistorm.us\/2cXfamE", "hash": "2cXfamE", "global_hash": "2cXfG3Z", "new_hash": 1 } }
+
+[19-Sep-2016 18:49:17] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=902", "url": "http:\/\/u.bistorm.us\/2deqWv0", "hash": "2deqWv0", "global_hash": "2dervVH", "new_hash": 1 } }
+
+[20-Sep-2016 18:10:39] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1114", "url": "http:\/\/u.bistorm.us\/2cZQZ6S", "hash": "2cZQZ6S", "global_hash": "2cZQZE3", "new_hash": 1 } }
+
+[21-Sep-2016 02:20:31] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1145", "url": "http:\/\/u.bistorm.us\/2d0Jahs", "hash": "2d0Jahs", "global_hash": "2d0Jpcu", "new_hash": 1 } }
+
+[21-Sep-2016 02:28:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1150", "url": "http:\/\/u.bistorm.us\/2d0IKaY", "hash": "2d0IKaY", "global_hash": "2d0JrAZ", "new_hash": 1 } }
+
+[21-Sep-2016 02:28:16] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1148", "url": "http:\/\/u.bistorm.us\/2d0IDvW", "hash": "2d0IDvW", "global_hash": "2d0Lfty", "new_hash": 1 } }
+
+[21-Sep-2016 02:28:28] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1152", "url": "http:\/\/u.bistorm.us\/2di3m0k", "hash": "2di3m0k", "global_hash": "2di3Vap", "new_hash": 1 } }
+
+[21-Sep-2016 02:33:19] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1156", "url": "http:\/\/u.bistorm.us\/2di3BZx", "hash": "2di3BZx", "global_hash": "2di3k90", "new_hash": 1 } }
+
+[21-Sep-2016 02:33:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1126", "url": "http:\/\/u.bistorm.us\/2d0IIzR", "hash": "2d0IIzR", "global_hash": "2d0JJb6", "new_hash": 1 } }
+
+[21-Sep-2016 02:34:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1112", "url": "http:\/\/u.bistorm.us\/2d0KnFs", "hash": "2d0KnFs", "global_hash": "2d0KIIb", "new_hash": 1 } }
+
+[26-Sep-2016 19:52:42] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1335", "url": "http:\/\/bit.ly\/2d4A1DY", "hash": "2d4A1DY", "global_hash": "2d4yb6c", "new_hash": 1 } }
+
+[26-Sep-2016 19:53:09] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1327", "url": "http:\/\/bit.ly\/2d4xSbq", "hash": "2d4xSbq", "global_hash": "2d4yo9n", "new_hash": 1 } }
+
+[26-Sep-2016 19:55:32] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1321", "url": "http:\/\/bit.ly\/2dxawxR", "hash": "2dxawxR", "global_hash": "2dxaYfy", "new_hash": 1 } }
+
+[26-Sep-2016 19:55:47] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1323", "url": "http:\/\/bit.ly\/2d4ygab", "hash": "2d4ygab", "global_hash": "2d4x3jb", "new_hash": 1 } }
+
+[26-Sep-2016 19:57:57] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1317", "url": "http:\/\/bit.ly\/2d4xY2T", "hash": "2d4xY2T", "global_hash": "2d4AFkS", "new_hash": 1 } }
+
+[26-Sep-2016 20:00:30] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1309", "url": "http:\/\/bit.ly\/2d4yOws", "hash": "2d4yOws", "global_hash": "2d4zkup", "new_hash": 1 } }
+
+[26-Sep-2016 20:00:43] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1307", "url": "http:\/\/bit.ly\/2dxbuKv", "hash": "2dxbuKv", "global_hash": "2dxbWsc", "new_hash": 1 } }
+
+[26-Sep-2016 20:02:46] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1311", "url": "http:\/\/bit.ly\/2dxcM8o", "hash": "2dxcM8o", "global_hash": "2dxcWwx", "new_hash": 1 } }
+
+[28-Sep-2016 22:01:08] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1451", "url": "http:\/\/bit.ly\/2daUkjw", "hash": "2daUkjw", "global_hash": "2daV5Jp", "new_hash": 1 } }
+
+[28-Sep-2016 22:47:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/09\/28\/svg-nation\/", "url": "http:\/\/bit.ly\/2db1xzT", "hash": "2db1xzT", "global_hash": "2db2ZCa", "new_hash": 1 } }
+
+[03-Oct-2016 17:07:48] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'cc_mime_types' was given in /home4/bistormo/public_html/blog/wp-includes/plugin.php on line 235
+[03-Oct-2016 17:07:48] PHP Warning:  Invalid argument supplied for foreach() in /home4/bistormo/public_html/blog/wp-includes/functions.php on line 2217
+[03-Oct-2016 17:08:39] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'cc_mime_types' was given in /home4/bistormo/public_html/blog/wp-includes/plugin.php on line 235
+[03-Oct-2016 17:08:39] PHP Warning:  Invalid argument supplied for foreach() in /home4/bistormo/public_html/blog/wp-includes/functions.php on line 2217
+[05-Oct-2016 01:31:42] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1585", "url": "http:\/\/u.bistorm.us\/2dvr2fh", "hash": "2dvr2fh", "global_hash": "2dvqGFA", "new_hash": 1 } }
+
+[05-Oct-2016 01:36:24] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1583", "url": "http:\/\/u.bistorm.us\/2e02ZI2", "hash": "2e02ZI2", "global_hash": "2e00GVN", "new_hash": 1 } }
+
+[05-Oct-2016 01:36:37] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1579", "url": "http:\/\/u.bistorm.us\/2e0096d", "hash": "2e0096d", "global_hash": "2e00Dcb", "new_hash": 1 } }
+
+[05-Oct-2016 01:41:54] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1577", "url": "http:\/\/u.bistorm.us\/2dvt7bq", "hash": "2dvt7bq", "global_hash": "2dvs0bL", "new_hash": 1 } }
+
+[05-Oct-2016 01:45:03] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1553", "url": "http:\/\/u.bistorm.us\/2dvuarC", "hash": "2dvuarC", "global_hash": "2dvtFhf", "new_hash": 1 } }
+
+[07-Oct-2016 15:17:09] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1629", "url": "http:\/\/u.bistorm.us\/2dERQKh", "hash": "2dERQKh", "global_hash": "2dER3ZL", "new_hash": 1 } }
+
+[07-Oct-2016 15:17:24] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1627", "url": "http:\/\/u.bistorm.us\/2e9vymv", "hash": "2e9vymv", "global_hash": "2e9xdsw", "new_hash": 1 } }
+
+[07-Oct-2016 15:17:36] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1615", "url": "http:\/\/u.bistorm.us\/2e9vMdx", "hash": "2e9vMdx", "global_hash": "2e9vMu3", "new_hash": 1 } }
+
+[08-Oct-2016 04:55:25] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home4/bistormo/public_html/blog/wp-content/plugins/wp-super-cache/wp-cache.php on line 3088
+[11-Oct-2016 03:05:52] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1700", "url": "http:\/\/u.bistorm.us\/2elEh5n", "hash": "2elEh5n", "global_hash": "2elFz05", "new_hash": 1 } }
+
+[18-Oct-2016 03:23:51] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1882", "url": "http:\/\/u.bistorm.us\/2eLpuRC", "hash": "2eLpuRC", "global_hash": "2eLmLrs", "new_hash": 1 } }
+
+[18-Oct-2016 03:25:30] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1878", "url": "http:\/\/u.bistorm.us\/2eeR1Z5", "hash": "2eeR1Z5", "global_hash": "2eeSVIS", "new_hash": 1 } }
+
+[18-Oct-2016 03:26:56] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1868", "url": "http:\/\/u.bistorm.us\/2eLmOnc", "hash": "2eLmOnc", "global_hash": "2eLoInC", "new_hash": 1 } }
+
+[18-Oct-2016 03:27:50] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1862", "url": "http:\/\/u.bistorm.us\/2eLlRem", "hash": "2eLlRem", "global_hash": "2eLmV26", "new_hash": 1 } }
+
+[18-Oct-2016 03:29:04] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=1858", "url": "http:\/\/u.bistorm.us\/2eLnJE5", "hash": "2eLnJE5", "global_hash": "2eLqiWM", "new_hash": 1 } }
+
+[26-Oct-2016 21:26:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2167", "url": "http:\/\/u.bistorm.us\/2eGRmpw", "hash": "2eGRmpw", "global_hash": "2eGV9De", "new_hash": 1 } }
+
+[26-Oct-2016 21:26:49] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2168", "url": "http:\/\/u.bistorm.us\/2eHo5Za", "hash": "2eHo5Za", "global_hash": "2eHoydQ", "new_hash": 1 } }
+
+[26-Oct-2016 21:40:47] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/10\/26\/the-return-im-so-excited-i-cant-stop-working\/", "url": "http:\/\/u.bistorm.us\/2eHoj2f", "hash": "2eHoj2f", "global_hash": "2eHrgzT", "new_hash": 1 } }
+
+[27-Oct-2016 15:49:56] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2183", "url": "http:\/\/u.bistorm.us\/2eKdv6r", "hash": "2eKdv6r", "global_hash": "2eKbQO6", "new_hash": 1 } }
+
+[31-Oct-2016 05:29:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2369", "url": "http:\/\/u.bistorm.us\/2eYUk93", "hash": "2eYUk93", "global_hash": "2eYYaPl", "new_hash": 1 } }
+
+[31-Oct-2016 05:32:21] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2371", "url": "http:\/\/u.bistorm.us\/2eSQz25", "hash": "2eSQz25", "global_hash": "2eSOvXS", "new_hash": 1 } }
+
+[31-Oct-2016 05:32:22] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2372", "url": "http:\/\/u.bistorm.us\/2eYXppq", "hash": "2eYXppq", "global_hash": "2eYZG4j", "new_hash": 1 } }
+
+[31-Oct-2016 05:32:26] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?page_id=2373", "url": "http:\/\/u.bistorm.us\/2eYUrl6", "hash": "2eYUrl6", "global_hash": "2eYURI0", "new_hash": 1 } }
+
+[01-Nov-2016 23:06:11] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2462", "url": "http:\/\/u.bistorm.us\/2eZ0va9", "hash": "2eZ0va9", "global_hash": "2eYXczW", "new_hash": 1 } }
+
+[01-Nov-2016 23:10:09] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/11\/01\/the-return-episodes-2-and-3-tonight\/", "url": "http:\/\/u.bistorm.us\/2f7MfPC", "hash": "2f7MfPC", "global_hash": "2f7NQ7P", "new_hash": 1 } }
+
+[02-Nov-2016 14:52:29] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2479", "url": "http:\/\/u.bistorm.us\/2fbdwAn", "hash": "2fbdwAn", "global_hash": "2fbaGeT", "new_hash": 1 } }
+
+[05-Nov-2016 02:36:44] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=2628", "url": "http:\/\/u.bistorm.us\/2fanfEi", "hash": "2fanfEi", "global_hash": "2fapk31", "new_hash": 1 } }
+
+[04-Dec-2016 19:56:31] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3656", "url": "http:\/\/u.bistorm.us\/2h2S6Ts", "hash": "2h2S6Ts", "global_hash": "2h2Xm9t", "new_hash": 1 } }
+
+[07-Dec-2016 19:40:21] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3775", "url": "http:\/\/u.bistorm.us\/2h3RoWZ", "hash": "2h3RoWZ", "global_hash": "2h3TKVC", "new_hash": 1 } }
+
+[07-Dec-2016 19:42:23] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/12\/07\/an-attack-on-dictionaries-bomb-edition\/", "url": "http:\/\/u.bistorm.us\/2h3VPB4", "hash": "2h3VPB4", "global_hash": "2h3VDBC", "new_hash": 1 } }
+
+[28-Dec-2016 17:18:53] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3967", "url": "http:\/\/u.bistorm.us\/2ieys8W", "hash": "2ieys8W", "global_hash": "2ieq3ST", "new_hash": 1 } }
+
+[28-Dec-2016 17:20:41] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/12\/28\/finding-our-rattiest-of-heroes-naked-splinter-times-x\/", "url": "http:\/\/u.bistorm.us\/2ieGz5k", "hash": "2ieGz5k", "global_hash": "2ieyMoa", "new_hash": 1 } }
+
+[30-Dec-2016 06:36:38] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3969", "url": "http:\/\/u.bistorm.us\/2ik0v6L", "hash": "2ik0v6L", "global_hash": "2ijXe7m", "new_hash": 1 } }
+
+[30-Dec-2016 06:36:40] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3970", "url": "http:\/\/u.bistorm.us\/2iodpmZ", "hash": "2iodpmZ", "global_hash": "2io7ezi", "new_hash": 1 } }
+
+[30-Dec-2016 07:21:36] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2016\/12\/29\/a-message-from-jonjen-bistorm-president\/", "url": "http:\/\/u.bistorm.us\/2iojuzH", "hash": "2iojuzH", "global_hash": "2iojxLI", "new_hash": 1 } }
+
+[31-Dec-2016 03:14:16] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3912", "url": "http:\/\/u.bistorm.us\/2in54gO", "hash": "2in54gO", "global_hash": "2in81hm", "new_hash": 1 } }
+
+[31-Dec-2016 03:16:02] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3960", "url": "http:\/\/u.bistorm.us\/2in4YWi", "hash": "2in4YWi", "global_hash": "2imZWJG", "new_hash": 1 } }
+
+[15-Jan-2017 21:04:39] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3987", "url": "http:\/\/u.bistorm.us\/2iv9PTW", "hash": "2iv9PTW", "global_hash": "2iv41cY", "new_hash": 1 } }
+
+[15-Jan-2017 21:20:28] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2017\/01\/15\/bistorm-labs-projectsandy-version-beaches\/", "url": "http:\/\/u.bistorm.us\/2iAnRqI", "hash": "2iAnRqI", "global_hash": "2iAkobC", "new_hash": 1 } }
+
+[19-Jan-2017 00:04:56] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3994", "url": "http:\/\/u.bistorm.us\/2jyIe90", "hash": "2jyIe90", "global_hash": "2jyEF2s", "new_hash": 1 } }
+
+[19-Jan-2017 00:04:57] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=3995", "url": "http:\/\/u.bistorm.us\/2jpcCjq", "hash": "2jpcCjq", "global_hash": "2jpeQzq", "new_hash": 1 } }
+
+[26-Jan-2017 00:49:20] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=4044", "url": "http:\/\/u.bistorm.us\/2jToCKq", "hash": "2jToCKq", "global_hash": "2jTk1YA", "new_hash": 1 } }
+
+[26-Jan-2017 00:51:48] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2017\/01\/25\/projectsandy-developer-walkthrough-1\/", "url": "http:\/\/u.bistorm.us\/2j6wzi4", "hash": "2j6wzi4", "global_hash": "2j6oZ7i", "new_hash": 1 } }
+
+[26-Jan-2017 19:25:35] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=4065", "url": "http:\/\/u.bistorm.us\/2jW0U0f", "hash": "2jW0U0f", "global_hash": "2jW3F1h", "new_hash": 1 } }
+
+[26-Jan-2017 19:29:12] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/2017\/01\/26\/the-zen-of-bistorm-development\/", "url": "http:\/\/u.bistorm.us\/2jW5jQE", "hash": "2jW5jQE", "global_hash": "2jW5k7a", "new_hash": 1 } }
+
+[05-Feb-2017 18:12:29] { "status_code": 200, "status_txt": "OK", "data": { "long_url": "http:\/\/blog.bistorm.org\/?p=4141", "url": "http:\/\/u.bistorm.us\/2kga1ub", "hash": "2kga1ub", "global_hash": "2kfYfQy", "new_hash": 1 } }
+
+[03-Apr-2017 18:19:51] {"status_code":200,"status_txt":"OK","data":{"url":"http://bit.ly/2nwVEQQ","hash":"2nwVEQQ","global_hash":"2nx2uWo","long_url":"http://blog.bistorm.org/?p=4355","new_hash":1}}
+[03-Apr-2017 19:54:47] {"status_code":200,"status_txt":"OK","data":{"url":"http://bit.ly/2oCrbCE","hash":"2oCrbCE","global_hash":"2oCw7r9","long_url":"http://blog.bistorm.org/2017/04/03/bistorm-slug-how-to/","new_hash":1}}
