@@ -22,6 +22,38 @@ function bistorm_setup() {
 endif; // bistorm_setup
 add_action( 'after_setup_theme', 'bistorm_setup' );
 
+// functions.php
+function enqueue_ajax_load_more() {
+   wp_enqueue_script('ajax-load-more'); // Already registered, just needs to be enqueued   
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_ajax_load_more' );
+
+// Add anchor links to excerpts
+function bistorm_trim_excerpt($text) {
+  $raw_excerpt = $text;
+  if ( '' == $text ) {
+    $text = get_the_content('');
+    $text = strip_shortcodes( $text );
+    $text = apply_filters('the_content', $text);
+    $text = str_replace(']]>', ']]>', $text);
+    $text = strip_tags($text, '<a>');
+    $excerpt_length = apply_filters('excerpt_length', 55);
+    $excerpt_more = apply_filters('excerpt_more', ' ' . '[...]');
+    $words = preg_split('/(<a.*?a>)|\n|\r|\t|\s/', $text, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY|PREG_SPLIT_DELIM_CAPTURE );
+    if ( count($words) > $excerpt_length ) {
+      array_pop($words);
+      $text = implode(' ', $words);
+      $text = $text . $excerpt_more;
+      } 
+    else {
+      $text = implode(' ', $words);
+      }
+    }
+  return apply_filters('new_wp_trim_excerpt', $text, $raw_excerpt);
+  }
+remove_filter('get_the_excerpt', 'wp_trim_excerpt');
+add_filter('get_the_excerpt', 'bistorm_trim_excerpt');
+
 /**
  * Register widget area.
  *
@@ -36,8 +68,6 @@ add_action( 'widgets_init', 'bistorm_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bistorm_scripts() {
-
-
 }
 add_action( 'wp_enqueue_scripts', 'bistorm_scripts' );
 
@@ -60,7 +90,7 @@ add_action( 'tgmpa_register', 'bistorm_register_required_plugins' );
 function bistorm_the_excerpt() {
 	$content_type = bistorm_content_get_content_type();
 	$content = bistorm_content_get_content();
-	if($content_type == 'twitter' || $content_type == 'follower') {		 
+ 	if($content_type == 'twitter') {
 	 	$excerpt = $content;
 		$excerpt = apply_filters('the_content', $excerpt);
 		$excerpt = str_replace(']]>', ']]&gt;', $excerpt);
@@ -68,8 +98,7 @@ function bistorm_the_excerpt() {
 	} else {
 		$excerpt = get_the_excerpt();
 	}
-	
- 	echo $excerpt;
+        echo $excerpt;
 }
 
 /**
@@ -90,15 +119,9 @@ function bistorm_content_get_content_type() {
 	$title = get_the_title();
 	
 	// Tweet
-	if( strpos(strtolower($title), 'now followed by') !== FALSE ) {
-		$content_type = 'follower';
-	}
-	
-	// Follower
-	if( strpos($content, 'twitter-tweet') !== FALSE ) {
-		$content_type = 'twitter';
-	}
-	
+	if( strpos(strtolower($title), 'twitter') !== FALSE  || preg_match('/[Twitter @]^/', $title) ) {
+            $content_type = 'twitter';
+	}	
 
 	return $content_type;
 }

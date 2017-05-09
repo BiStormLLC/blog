@@ -84,7 +84,7 @@ if ( ! function_exists( 'oblique_setup' ) ) :
 			'default-color' => '1c1c1c',
 		) ) );
 
-		require_once( get_template_directory() . '/inc/customizer-info/class/class-singleton-customizer-info-section.php' );
+		require_once( trailingslashit( get_template_directory() ) . 'inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php' );
 	}
 endif; // oblique_setup
 add_action( 'after_setup_theme', 'oblique_setup' );
@@ -159,6 +159,11 @@ function oblique_register_required_plugins() {
 			array(
 				'name'     => 'Pirate Forms',
 				'slug' 	   => 'pirate-forms',
+				'required' => false,
+			),
+			array(
+				'name'     => 'Nivo Slider Lite',
+				'slug' 	   => 'nivo-slider-lite',
 				'required' => false,
 			),
 	);

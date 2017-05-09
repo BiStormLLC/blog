@@ -9,8 +9,15 @@ jQuery(function($) {
         if ( !$container ) {
             return;
         }
-
+        masonryInit = false;
         $container.show();
+        
+        twttr.ready(function (twttr) {
+            twttr.events.bind('loaded', function (event) {
+               $('.grid-layout').masonry('reloadItems');
+               nsc_trigger_masonry();
+            });
+        });
 
         // init Masonry
         $container.imagesLoaded( function() {
@@ -19,7 +26,7 @@ jQuery(function($) {
                 isAnimated: true,
                 animationOptions: {
                     duration: 300,
-                    easing: 'linear',
+                    easing: 'linear'
                 }
             });
         });
@@ -27,23 +34,19 @@ jQuery(function($) {
 
     $(window).load(function(){
         $container = $('.grid-layout'); // this is the grid container
-
+        masonryInit = true;
         nsc_trigger_masonry();
 
-        // Triggers re-layout on infinite scroll
-        $( document.body ).on( 'post-load', function () {
-
-            // I removed the infinite_count code
-            var $selector = $('.infinite-wrap');
-            var $elements = $selector.find('.hentry');
-
-            /* here is the idea which is to catch the selector whether it contain element or not, if it's move it to the masonry grid. */
-            if( $selector.children().length > 0 ) {
-                $container.append( $elements ).masonry( 'appended', $elements, true );
-                nsc_trigger_masonry();
+        $.fn.almComplete = function(alm){ // Ajax Load More callback function
+            var $container = $('.grid-layout'); // our container
+            if(masonryInit){
+              // initialize Masonry only once
+              nsc_trigger_masonry();
+            }else{
+              $container.masonry('reloadItems');
+              nsc_trigger_masonry();
             }
-
-        });
+        };
     });
 
 });

@@ -1,10 +1,10 @@
 ﻿=== Social Login ===
 Contributors: miniOrange
 Donate link: http://miniorange.com
-Tags: social login, social sharing, social share, social media, amazon, auto user registration, User Profile Data, auto-login, autologin, Facebook, facebook connect, Facebook Login, facebook share, floating buttons, free social sharing, google, google plus share, share page, Google Login, google social login, login with twitter, twitter social login, twitter login, login with vkontakte, vkontakte social login, vkontakte login, increase shares, instagram, linkedin, linkedin login, login, login widget, login with amazon, pinterest share, pinterest sharing, reddit share, reddit sharing, vkontakte share, vkontakte sharing, tumblr share, tumblr sharing, stumbleupon share, stumbleupon sharing, pocket share, pocket sharing, digg share, digg sharing, delicious share, delicious sharing, odnoklassniki share, odnoklassniki sharing, login with facebook, login with google, login with linkedin, login with microsoft, login with openid connect, login with salesforce, microsoft, oauth, openid, OpenID Connect, openid connect sso, post to social networks, Reddit, salesforce, salesforce login, salesforce openid connect, Share, share button, share buttons, share icons, share links, social connect, social media login, social network login, social network share, social provider, social share, social sharing widget, twitter, twitter share, user auto register, widget, windows live, woocommerce sharing, woocommerce,  social, woocommerce connect, comments, yahoo, twitter,plugin,wordpress multisite, SSO technology,social sign-in,Social Plugins, social media tools,social commenting,social authentication, social media authentication, social app, social api,social media app, social media sharing, bbPress forum share, bbPress topic share, bbPress reply share, bbPress forum sharing, bbPress topic sharing, bbPress reply sharing, social media plugins, Social Analytics, single sign-on, share post, OpenID integration, multisite, mailchimp, capture social data, bbPress, buddypress, shortcode, social comment, social media comment, social comment facebook, social comment google, email, print, whatsapp
+Tags: social login, social, facebook, twitter, login
 Requires at least: 2.0.2
 Tested up to: 4.7.1
-Stable tag: 5.1
+Stable tag: 5.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,6 +136,11 @@ Please email us at info@miniorange.com. You can also submit your query from the 
 
 
 == Changelog ==
+= 5.1.1 =
+*	Security fix for Social Login
+*	Minor fix - clean up data during Social Login
+*	UI changes
+
 = 5.1 =
 *	Added option to change heading color through UI (Social Login & Sharing)
 *	Added shortcode options for heading and heading color (Social Login & Sharing)
@@ -345,6 +350,11 @@ Please email us at info@miniorange.com. You can also submit your query from the 
 * First version of Social Login, Social Sharing plugin.
 
 == Upgrade Notice ==
+= 5.1.1 =
+*	Security fix for Social Login
+*	Minor fix - clean up data during Social Login
+*	UI changes
+
 = 5.1 =
 *	Added option to change heading color through UI (Social Login & Sharing)
 *	Added shortcode options for heading and heading color (Social Login & Sharing)

@@ -26,7 +26,7 @@ define('DB_NAME', 'wp_blog');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'wordpress');
+define('DB_PASSWORD', 'lostinsound0411');
 
 /** MySQL hostname */
 define('DB_HOST', 'db:3306');

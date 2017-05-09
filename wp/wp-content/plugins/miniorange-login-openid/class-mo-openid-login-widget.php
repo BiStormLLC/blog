@@ -795,6 +795,14 @@ class mo_openid_sharing_ver_wid extends WP_Widget {
 			$decrypted_first_name = isset($_POST['firstName']) ? mo_openid_decrypt($_POST['firstName']): '';
 			$decrypted_last_name = isset($_POST['lastName']) ? mo_openid_decrypt($_POST['lastName']): '';
 			
+			$decrypted_email= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_email);
+			$decrypted_user_name= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_user_name);
+			$decrypted_user_picture= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_user_picture);
+			$decrypted_user_url= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_user_url);
+			$decrypted_first_name= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_first_name);
+			$decrypted_last_name= preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $decrypted_last_name);
+
+			
 			//Calculate user email
 			if( isset( $decrypted_email ) && strcmp($decrypted_email,'')!=0 ) {
 				$user_email = $decrypted_email;
@@ -884,17 +892,22 @@ class mo_openid_sharing_ver_wid extends WP_Widget {
 					  $_SESSION['mo_login'] = true;
 					  do_action( 'wp_login', $user->user_login, $user );
 					  wp_set_auth_cookie( $user_id, true );
-				} else if( isset($username_user_id) ) { // user is a member
-					  $user 	= get_user_by('id', $username_user_id );
-					  $user_id 	= $user->ID;
-					  if(get_option('moopenid_social_login_avatar') && isset($user_picture))
-							update_user_meta($user_id, 'moopenid_user_avatar', $user_picture);
-					  $_SESSION['mo_login'] = true;
-					  do_action( 'wp_login', $user->user_login, $user );
-					  wp_set_auth_cookie( $user_id, true );
-				} else { // this user is a guest
-					if(get_option('mo_openid_auto_register_enable')) {
+				} 
+				else { // this user is a guest
+						if(get_option('mo_openid_auto_register_enable')) {
 						$random_password 	= wp_generate_password( 10, false );
+						
+						if( isset($username_user_id) ){
+							$email = array();
+							$email = explode('@', $decrypted_email);
+							$username = $email[0];
+							$username_user_id = $wpdb->get_var($wpdb->prepare("SELECT ID FROM $wpdb->users where user_login = %s", $username));
+							if( isset($username_user_id) ){
+								echo '<br/>This username already exists. Please ask the administrator to create your account with a unique username';
+								exit();
+							}
+						}
+						
 						$userdata = array(
 											'user_login'  =>  $username,
 											'user_email'    =>  $user_email,
@@ -906,7 +919,7 @@ class mo_openid_sharing_ver_wid extends WP_Widget {
 										);
 						
 						  
-						$user_id 	= wp_insert_user( $userdata);
+						$user_id 	= wp_insert_user( $userdata); 
 						
 						if(is_wp_error( $user_id )) {
 							//print_r($user_id);
@@ -930,7 +943,7 @@ class mo_openid_sharing_ver_wid extends WP_Widget {
 							update_user_meta($user_id, 'moopenid_user_avatar', $user_picture);
 						}
 						$_SESSION['mo_login'] = true;
-						do_action( 'user_register', $user_id);
+						do_action( 'mo_user_register', $user_id);
 						do_action( 'wp_login', $user->user_login, $user );
 						wp_set_auth_cookie( $user_id, true );
 					}

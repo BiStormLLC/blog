@@ -10,10 +10,10 @@ services:
     restart: always
     container_name: model
     environment:
-     MYSQL_ROOT_PASSWORD: wordpress
+     MYSQL_ROOT_PASSWORD: lostinsound0411
      MYSQL_DATABASE: wp_blog
-     MYSQL_USER: wordpress
-     MYSQL_PASSWORD: wordpress
+     MYSQL_PASSWORD: lostinsound0411
+     MYSQL_USER: root
     ports:
      - 3306:3306
     
@@ -23,19 +23,18 @@ services:
     container_name: view_controller
     volumes:
      - ./media:/media
+     - ./wp:/var/www/html
     restart: always
     ports: 
-     - "80:80"
+     - 8301:8301
     depends_on: 
      - db
     environment:
      WORDPRESS_DB_HOST: db:3306
-     WORDPRESS_DB_PASSWORD: wordpress
+     WORDPRESS_DB_PASSWORD: lostinsound0411
      WORDPRESS_DB_USER: root
      WORDPRESS_WP_CACHE: 'true'
-     WORDPRESS_WPCACHEHOME: /var/www/html/wp-content/plugins/wp-super-cache/
      WORDPRESS_DB_NAME: wp_blog 
      
 volumes:
     data:
-  

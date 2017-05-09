@@ -20,21 +20,6 @@
 }
 
 
-
-
-.wp_themeSkin span.mce_embedplusstats, span.mce_embedplusstats,
-.wp_themeSkin span.mce_embedplusstats_youtubeprefs, span.mce_embedplusstats_youtubeprefs
-
-{
-    background: transparent url("../images/btn_embedplusstatsoff.png") no-repeat scroll center center !important;
-}
-
-.wp_themeSkin span.mce_embedplusstats:hover, span.mce_embedplusstats:hover,
-.wp_themeSkin span.mce_embedplusstats_youtubeprefs:hover, span.mce_embedplusstats_youtubeprefs:hover
-{
-    background-image: url("../images/btn_embedplusstats.png") !important;
-}
-
 /********** media button */
 
 .wp-core-ui a.ytprefs_media_link span, a.ytprefs_media_link span, #media-buttons a.ytprefs_media_link span
@@ -52,17 +37,13 @@
     background-image: url("../images/btnwizon.png");
 }
 
-/*
-.wp-core-ui a.ytprefs_media_link, a.ytprefs_media_link
-{
-    padding: 0 10px 1px .4em;
+body #TB_overlay.epyt-thickbox {
+    z-index: 100000000 !important;
 }
 
-#media-buttons a.ytprefs_media_link_old
-{
-    padding: 3px 10px 3px 10px;
+body #TB_window.epyt-thickbox {
+    z-index: 100000001 !important;
 }
-*/
 
 #media-buttons a.ytprefs_media_link, .wp-core-ui a.ytprefs_media_link, a.ytprefs_media_link
 {

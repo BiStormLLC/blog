@@ -4,7 +4,7 @@
 * Plugin Name: Social Login, Social Sharing by miniOrange
 * Plugin URI: http://miniorange.com
 * Description: Allow your users to login, comment and share with Facebook, Google, Twitter, LinkedIn etc using customizable buttons.
-* Version: 5.1
+* Version: 5.1.1
 * Author: miniOrange
 * Author URI: http://miniorange.com
 * License: GPL2
@@ -48,6 +48,7 @@ class Miniorange_OpenID_SSO {
 		add_shortcode( 'miniorange_social_login', array($this, 'mo_get_output') );
 		add_shortcode( 'miniorange_social_sharing', array($this, 'mo_get_sharing_output') );
 		add_shortcode( 'miniorange_social_sharing_vertical', array($this, 'mo_get_vertical_sharing_output') );
+		add_shortcode( 'miniorange_social_comments', array($this, 'mo_get_comments_output') );
 		
 		// add social login icons to comment form
 		if(get_option('mo_openid_default_comment_enable') == 1 ){
@@ -889,6 +890,15 @@ class Miniorange_OpenID_SSO {
 			return $html;
 		}
 	}
+	
+	public function mo_get_comments_output( $atts ){
+		if(mo_openid_is_customer_registered()){
+			$html = mo_openid_comments_shortcode();
+			return $html;
+		}
+	}
+	
+
 	
 	function mo_social_login_custom_avatar( $avatar, $mixed, $size, $default, $alt = '' ) {
         $user = false;

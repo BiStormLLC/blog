@@ -2,9 +2,18 @@
     cursor: pointer; text-align: left; background-color: #dddddd; color: #000000;
 }
 
+iframe.__youtube_prefs__
+{
+    border-width: 0;
+}
+
 .epyt-gallery {
     text-align: center;
 }
+
+/*.epyt-gallery div[tabindex]:focus {
+    outline: none;
+}*/
 
 .epyt-gallery iframe {
     margin-bottom: 0;
@@ -21,6 +30,10 @@
     display: block;
 }
 
+.epyt-gallery-list p {
+    display: none;
+}
+
 .epyt-gallery-clear {
     clear: both;
 }
@@ -35,7 +48,7 @@
     overflow-y: hidden;
     display: block !important;
     cursor: pointer;
-    opacity: .8;
+    opacity: 1;
     float: left;
     padding: 0 8px 10px 8px;
 }
@@ -130,49 +143,6 @@
 .epyt-gallery-rowtitle.hover {
     opacity: 1;
     transition: opacity linear .2s;
-}
-
-.epyt-gallery-list.epyt-gallery-style-listview {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 25px;
-}
-
-.epyt-gallery-thumb.epyt-listview {
-    width: 100% !important;
-    padding: 0;
-    margin: 8px 0 8px 0;
-}
-
-.epyt-gallery-thumb.epyt-listview + .epyt-gallery-rowbreak {
-    display: none;
-}
-
-.epyt-gallery-thumb.epyt-listview .epyt-gallery-img-box {
-    float: left;
-    width: 150px;
-    max-width: 25%;
-    margin-right: 20px;
-    margin-bottom: 6px;
-}
-
-.epyt-gallery-thumb.epyt-listview .epyt-gallery-title {
-    padding: 10px;
-    text-align: left;
-}
-
-.epyt-gallery-thumb.epyt-listview .epyt-gallery-dsc {
-    font-size: 75%;
-    line-height: 120%;
-    padding: 5px 10px 12px 10px;
-    text-align: left;
-}
-
-.epyt-gallery-thumb.epyt-listview.hover {
-    position: relative;
-    background-color: #dddddd;
-    color: black;
-    transition: background-color ease-out .3s, color ease-out .3s;
 }
 
 .epyt-gallery-rowbreak {
@@ -301,94 +271,7 @@ columns
 .epyt-gallery-allthumbs.epyt-cols-20 .epyt-gallery-thumb {
     width: 5%;
 }
-/*
-shape
-*/
 
-.epyt-gallery-allthumbs.epyt-thumb-portal .epyt-gallery-thumb .epyt-gallery-img {
-    border-radius: 50%;
-    padding-top: 100% !important;
-}
-
-/*
-Carousel
-*/
-.epyt-gallery-list.epyt-gallery-style-carousel {
-    margin: 0 0 50px 0;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagination {
-    display: none;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagination:first-child {
-    position: absolute;
-    width: 100%;
-    display: block;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    padding: 0;
-    height: 30px;
-
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagenumbers.hide {
-    opacity: 0;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-gallery-allthumbs {
-    margin: 15px 35px 15px 35px;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-gallery-thumb {
-    padding-bottom: 0;
-    float: none;
-    display: inline-block !important;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagebutton > div {
-    display: none;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagebutton > div.arrow {
-    background: transparent url(../images/arrow-right.svg) no-repeat scroll 0 0;
-    background-size: contain;
-    width: 20px;
-    height: 100%;
-    display: block;
-    text-indent: -99999px;
-    opacity: .7;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagebutton > div.arrow:hover {
-    opacity: 1;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagebutton.epyt-prev > div.arrow {
-    background-image: url(../images/arrow-left.svg);
-}
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagebutton {
-    padding: 0;
-    margin-top: -2px;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-next {
-    float: right;
-}
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-prev {
-    float: left;
-}
-
-
-
-.epyt-gallery-list.epyt-gallery-style-carousel .epyt-pagenumbers {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-}
 
 .epyt-pagebutton.hide, .epyt-pagenumbers.hide {
     display: none !important;
@@ -418,10 +301,7 @@ Carousel
     padding: 0 6px 3px 0;
     display: inline-block;
     background: transparent;
-}
-
-#wpadminbar #wp-admin-bar-ytprefs-bar-cache > .ab-item:before {
-    content: "\f311";
-    top: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;    
 }
 

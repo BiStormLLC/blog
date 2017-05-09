@@ -2312,7 +2312,7 @@ function mo_openid_pricing_info(){ ?>
 				 onclick="upgradeform('social_login_recharge_plan')" >Recharge Now</a></h4>
 				<?php } ?>
 				<hr>
-				<p class="mo_openid_pricing_text">$9 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><br/>
+				<p class="mo_openid_pricing_text">$9 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><a style="color:pink" href="<?php echo add_query_arg( array('tab' => 'help'), $_SERVER['REQUEST_URI'] ); ?>">Recharge Plans</a>**<br/>
 					<?php if(mo_openid_is_customer_valid()) { ?>
 						Recharge Plans<br/>
 						<select class="mo_openid_license_select_option" <?php if(mo_openid_is_customer_valid()) { ?> style="padding-left:24% !important" <?php } ?>>
@@ -2346,7 +2346,7 @@ function mo_openid_pricing_info(){ ?>
 				onclick="upgradeform('social_login_recharge_plan')" >Recharge Now</a></h4>
 				<?php } ?>
 				<hr>
-				<p class="mo_openid_pricing_text">$19 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><br/>
+				<p class="mo_openid_pricing_text">$19 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><a style="color:pink" href="<?php echo add_query_arg( array('tab' => 'help'), $_SERVER['REQUEST_URI'] ); ?>">Recharge Plans</a>**<br/>
 					<?php if(mo_openid_is_customer_valid()) { ?>
 						Recharge Plans<br/>
 						<select class="mo_openid_license_select_option" <?php if(mo_openid_is_customer_valid()) { ?> style="padding-left:24% !important" <?php } ?>>
@@ -2367,7 +2367,7 @@ function mo_openid_pricing_info(){ ?>
 					Custom Apps***<br/></p>
 					<p><br/><br/></p>
 				<hr/>
-				<p class="mo_openid_pricing_text">Get access to user data like Name, Email, Username, Display Picture and <a target="_blank" href="http://miniorange.com/social-data-from-social-sites" style="color:pink">*Extended Profile Data</a></p>
+				<p class="mo_openid_pricing_text">Get access to user data like Name, Email, Username, Display Picture and <a target="_blank" href="http://miniorange.com/social-data-from-social-sites" style="color:pink">Extended Profile Data</a>*</p>
 				<hr>
 				<p class="mo_openid_pricing_text">Basic Support by Email<br/><br/></p>
 			</div></td>
@@ -2381,7 +2381,7 @@ function mo_openid_pricing_info(){ ?>
 				onclick="upgradeform('social_login_recharge_plan')" >Recharge Now</a></h4>
 				<?php } ?>
 				<hr>
-				<p class="mo_openid_pricing_text">$29 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><br/>
+				<p class="mo_openid_pricing_text">$29 - One Time Payment<br/>+<br/>$0 - For First 10,000 Logins**<br/><a style="color:pink" href="<?php echo add_query_arg( array('tab' => 'help'), $_SERVER['REQUEST_URI'] ); ?>">Recharge Plans</a>**<br/>
 					<?php if(mo_openid_is_customer_valid()) { ?>
 						Recharge Plans<br/>
 						<select class="mo_openid_license_select_option" <?php if(mo_openid_is_customer_valid()) { ?> style="padding-left:24% !important" <?php } ?>>
@@ -2403,7 +2403,7 @@ function mo_openid_pricing_info(){ ?>
 					Custom Integration<br/><br/>
 				</p>
 				<hr/>
-				<p class="mo_openid_pricing_text">Get access to user data like Name, Email, Username, Display Picture  and <a target="_blank" href="http://miniorange.com/social-data-from-social-sites" style="color:pink">*Extended Profile Data</a></p>
+				<p class="mo_openid_pricing_text">Get access to user data like Name, Email, Username, Display Picture  and <a target="_blank" href="http://miniorange.com/social-data-from-social-sites" style="color:pink">Extended Profile Data</a>*</p>
 				<hr>
 				<p class="mo_openid_pricing_text">Premium Support<br/><br/></p>
 			</div></td>
@@ -2631,7 +2631,7 @@ function mo_openid_troubleshoot_info(){ ?>
 		
 		
 		<tr><td>
-			<h3><a  id="openid_question_payment" class="mo_openid_title_panel">Payment</a></h3>
+			<h3><a  id="openid_question_payment" class="mo_openid_title_panel">Payment &amp; Recharge Plans</a></h3>
 				<div class="mo_openid_help_desc" hidden="" id="openid_question_payment_desc">
 					<h4><a id="openid_question16">What is a login? What is the validity of 10,000 logins?</a></h4>
 					<div id="openid_question16_desc">

@@ -1,2 +1,7 @@
 .DS_STORE
 .git
+.dab
+media
+data
+wp/wp-content/cache
+wp/wp-content/uploads

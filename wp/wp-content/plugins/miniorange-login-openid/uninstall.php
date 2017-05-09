@@ -35,6 +35,7 @@
 	delete_option('mo_openid_login_redirect_url');
 	delete_option('moopenid_social_login_avatar');
 	delete_option('moopenid_user_attributes');
+	delete_option('mo_openid_auto_register_enable');
 
 	delete_option( 'mo_openid_social_comment_fb');
 	delete_option( 'mo_openid_social_comment_google' );

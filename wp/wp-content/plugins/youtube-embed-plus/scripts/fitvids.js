@@ -1,11 +1,11 @@
 var epdofitvids = epdofitvids || function ($)
 {
-    if (_EPYT_.epresponsiveselector.constructor !== Array)
-    {
-        _EPYT_.epresponsiveselector = JSON.parse(_EPYT_.epresponsiveselector);
-    }
 
     $.fn.fitVidsEP = function (options) {
+        if (_EPYT_.epresponsiveselector.constructor !== Array)
+        {
+            _EPYT_.epresponsiveselector = JSON.parse(_EPYT_.epresponsiveselector);
+        }
         var settings = {
             customSelector: null
         };

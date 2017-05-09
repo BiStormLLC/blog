@@ -1,63 +1,129 @@
-/*
-
-Theme Name: BiStorm (Oblique Child)
-
-Theme URI: http://blog.bistorm.org
-
-Author: jmcquade
-
-Author URI: http://blog.bistorm.org
-
-Description: Oblique is a creative masonry theme that works great for fashion or general bloggers. Amongst the features you will find a a parallax header image, full color control with unlimited color variations, easy access to all Google Fonts, responsive design etc.
-
-Template: oblique
-
-Version: 1.01
-
-License: GNU General Public License v2 or later
-
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Text Domain: oblique
-
-Tags: dark, fluid-layout, responsive-layout, custom-colors, custom-background, custom-menu, custom-header, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
-
-
-
-This theme, like WordPress, is licensed under the GPL.
-
-Use it to make something cool, have fun, and share what you've learned with others.
-
-
-BiStorm is based on Oblique http://themeisle.com/themes/oblique
-Oblique is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-
-*/
-
-
-@import url("../oblique/style.css");
-
-
-/* Theme customization starts here */
-.site-logo {
-	-webkit-filter: drop-shadow( 1px 1px 3px #000 );
-        filter: drop-shadow( 1px 1px 3px #000 ); /* Same syntax as box-shadow */
-
-}
-
-.site-title{
-	text-shadow: 1px 1px 1px rgba(153, 51, 255, .8);
-}
-
-.site-title{
-	text-shadow: 1px 1px 1px rgba(153, 51, 255, .8);
-}
-
-.site-description{
-	text-shadow: 1px 1px 1px rgba(234, 136, 0, .8);
-	
-}
-
-.site-header {
-	background-size: auto auto !important;
+/*
+
+
+
+Theme Name: BiStorm (Oblique Child)
+
+
+
+Theme URI: http://blog.bistorm.org
+
+
+
+Author: jmcquade
+
+
+
+Author URI: http://blog.bistorm.org
+
+
+
+Description: Oblique is a creative masonry theme that works great for fashion or general bloggers. Amongst the features you will find a a parallax header image, full color control with unlimited color variations, easy access to all Google Fonts, responsive design etc.
+
+
+
+Template: oblique
+
+
+
+Version: 1.01
+
+
+
+License: GNU General Public License v2 or later
+
+
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+Text Domain: oblique
+
+
+
+Tags: dark, fluid-layout, responsive-layout, custom-colors, custom-background, custom-menu, custom-header, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+
+
+
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+
+
+BiStorm is based on Oblique http://themeisle.com/themes/oblique
+
+Oblique is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+
+
+*/
+
+
+
+
+
+@import url("../oblique/style.css");
+
+
+
+
+
+/* Theme customization starts here */
+
+.site-logo {
+
+	-webkit-filter: drop-shadow( 1px 1px 3px #000 );
+
+        filter: drop-shadow( 1px 1px 3px #000 ); /* Same syntax as box-shadow */
+
+
+
+}
+
+
+
+.site-title{
+
+	text-shadow: 1px 1px 1px rgba(153, 51, 255, .8);
+
+}
+
+
+
+.site-title{
+
+	text-shadow: 1px 1px 1px rgba(153, 51, 255, .8);
+
+}
+
+
+
+.site-description{
+
+	text-shadow: 1px 1px 1px rgba(234, 136, 0, .8);
+
+	
+
+}
+
+
+
+.site-header {
+
+	background-size: auto auto !important;
+
+}
+
+.hentry .post-bottom-svg {
+	margin-top: -7.74% !important;
 }
