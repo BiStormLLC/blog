@@ -10,9 +10,9 @@ services:
     restart: always
     container_name: model
     environment:
-     MYSQL_ROOT_PASSWORD: lostinsound0411
+     MYSQL_ROOT_PASSWORD: wordpress
      MYSQL_DATABASE: wp_blog
-     MYSQL_PASSWORD: lostinsound0411
+     MYSQL_PASSWORD: wordpress
      MYSQL_USER: root
     ports:
      - 3306:3306
@@ -31,7 +31,7 @@ services:
      - db
     environment:
      WORDPRESS_DB_HOST: db:3306
-     WORDPRESS_DB_PASSWORD: lostinsound0411
+     WORDPRESS_DB_PASSWORD: wordpress
      WORDPRESS_DB_USER: root
      WORDPRESS_WP_CACHE: 'true'
      WORDPRESS_DB_NAME: wp_blog 
